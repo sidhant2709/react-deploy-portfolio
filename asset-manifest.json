@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-deploy-portfolio/static/css/main.305a2b8c.chunk.css",
+    "main.js": "/react-deploy-portfolio/static/js/main.20ff6940.chunk.js",
+    "main.js.map": "/react-deploy-portfolio/static/js/main.20ff6940.chunk.js.map",
+    "runtime-main.js": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js",
+    "runtime-main.js.map": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js.map",
+    "static/css/2.adb406d7.chunk.css": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css",
+    "static/js/2.7eb3f80b.chunk.js": "/react-deploy-portfolio/static/js/2.7eb3f80b.chunk.js",
+    "static/js/2.7eb3f80b.chunk.js.map": "/react-deploy-portfolio/static/js/2.7eb3f80b.chunk.js.map",
+    "index.html": "/react-deploy-portfolio/index.html",
+    "static/css/2.adb406d7.chunk.css.map": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css.map",
+    "static/css/main.305a2b8c.chunk.css.map": "/react-deploy-portfolio/static/css/main.305a2b8c.chunk.css.map",
+    "static/js/2.7eb3f80b.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.7eb3f80b.chunk.js.LICENSE.txt",
+    "static/media/Sid.43c2f4b4.jpg": "/react-deploy-portfolio/static/media/Sid.43c2f4b4.jpg",
+    "static/media/App.css": "/react-deploy-portfolio/static/media/pexels-hasan-albari-1229861.2f0d2ede.jpg",
+    "static/media/css.b0696b45.svg": "/react-deploy-portfolio/static/media/css.b0696b45.svg",
+    "static/media/html.10080bf9.svg": "/react-deploy-portfolio/static/media/html.10080bf9.svg",
+    "static/media/js.1b2759f5.svg": "/react-deploy-portfolio/static/media/js.1b2759f5.svg",
+    "static/media/logo.b3aed95d.svg": "/react-deploy-portfolio/static/media/logo.b3aed95d.svg",
+    "static/media/p2.1af9c8d1.jpg": "/react-deploy-portfolio/static/media/p2.1af9c8d1.jpg",
+    "static/media/p3.04c87538.jpg": "/react-deploy-portfolio/static/media/p3.04c87538.jpg",
+    "static/media/p4.c8fb2e2c.jpg": "/react-deploy-portfolio/static/media/p4.c8fb2e2c.jpg",
+    "static/media/react.d580a556.svg": "/react-deploy-portfolio/static/media/react.d580a556.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9cbf7da.js",
+    "static/css/2.adb406d7.chunk.css",
+    "static/js/2.7eb3f80b.chunk.js",
+    "static/css/main.305a2b8c.chunk.css",
+    "static/js/main.20ff6940.chunk.js"
+  ]
+}
