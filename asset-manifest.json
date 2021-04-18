@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-deploy-portfolio/static/css/main.4df1f93f.chunk.css",
-    "main.js": "/react-deploy-portfolio/static/js/main.20ff6940.chunk.js",
-    "main.js.map": "/react-deploy-portfolio/static/js/main.20ff6940.chunk.js.map",
+    "main.css": "/react-deploy-portfolio/static/css/main.98a1d82d.chunk.css",
+    "main.js": "/react-deploy-portfolio/static/js/main.659bda3d.chunk.js",
+    "main.js.map": "/react-deploy-portfolio/static/js/main.659bda3d.chunk.js.map",
     "runtime-main.js": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js",
     "runtime-main.js.map": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js.map",
     "static/css/2.adb406d7.chunk.css": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css",
-    "static/js/2.7eb3f80b.chunk.js": "/react-deploy-portfolio/static/js/2.7eb3f80b.chunk.js",
-    "static/js/2.7eb3f80b.chunk.js.map": "/react-deploy-portfolio/static/js/2.7eb3f80b.chunk.js.map",
+    "static/js/2.b78a4442.chunk.js": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js",
+    "static/js/2.b78a4442.chunk.js.map": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js.map",
     "index.html": "/react-deploy-portfolio/index.html",
     "static/css/2.adb406d7.chunk.css.map": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css.map",
-    "static/css/main.4df1f93f.chunk.css.map": "/react-deploy-portfolio/static/css/main.4df1f93f.chunk.css.map",
-    "static/js/2.7eb3f80b.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.7eb3f80b.chunk.js.LICENSE.txt",
+    "static/css/main.98a1d82d.chunk.css.map": "/react-deploy-portfolio/static/css/main.98a1d82d.chunk.css.map",
+    "static/js/2.b78a4442.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js.LICENSE.txt",
     "static/media/Sid.43c2f4b4.jpg": "/react-deploy-portfolio/static/media/Sid.43c2f4b4.jpg",
     "static/media/App.css": "/react-deploy-portfolio/static/media/pexels-hasan-albari-1229861.2f0d2ede.jpg",
     "static/media/css.b0696b45.svg": "/react-deploy-portfolio/static/media/css.b0696b45.svg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.a9cbf7da.js",
     "static/css/2.adb406d7.chunk.css",
-    "static/js/2.7eb3f80b.chunk.js",
-    "static/css/main.4df1f93f.chunk.css",
-    "static/js/main.20ff6940.chunk.js"
+    "static/js/2.b78a4442.chunk.js",
+    "static/css/main.98a1d82d.chunk.css",
+    "static/js/main.659bda3d.chunk.js"
   ]
 }
