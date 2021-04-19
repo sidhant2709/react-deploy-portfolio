@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-deploy-portfolio/static/css/main.31f82639.chunk.css",
-    "main.js": "/react-deploy-portfolio/static/js/main.ab3ab570.chunk.js",
-    "main.js.map": "/react-deploy-portfolio/static/js/main.ab3ab570.chunk.js.map",
+    "main.css": "/react-deploy-portfolio/static/css/main.030b94d3.chunk.css",
+    "main.js": "/react-deploy-portfolio/static/js/main.8d1c072b.chunk.js",
+    "main.js.map": "/react-deploy-portfolio/static/js/main.8d1c072b.chunk.js.map",
     "runtime-main.js": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js",
     "runtime-main.js.map": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js.map",
     "static/css/2.adb406d7.chunk.css": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css",
@@ -10,14 +10,16 @@
     "static/js/2.b78a4442.chunk.js.map": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js.map",
     "index.html": "/react-deploy-portfolio/index.html",
     "static/css/2.adb406d7.chunk.css.map": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css.map",
-    "static/css/main.31f82639.chunk.css.map": "/react-deploy-portfolio/static/css/main.31f82639.chunk.css.map",
+    "static/css/main.030b94d3.chunk.css.map": "/react-deploy-portfolio/static/css/main.030b94d3.chunk.css.map",
     "static/js/2.b78a4442.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js.LICENSE.txt",
     "static/media/Sid.43c2f4b4.jpg": "/react-deploy-portfolio/static/media/Sid.43c2f4b4.jpg",
     "static/media/App.css": "/react-deploy-portfolio/static/media/pexels-hasan-albari-1229861.2f0d2ede.jpg",
+    "static/media/aljazeera.4e55014f.png": "/react-deploy-portfolio/static/media/aljazeera.4e55014f.png",
     "static/media/css.b0696b45.svg": "/react-deploy-portfolio/static/media/css.b0696b45.svg",
     "static/media/html.10080bf9.svg": "/react-deploy-portfolio/static/media/html.10080bf9.svg",
     "static/media/js.1b2759f5.svg": "/react-deploy-portfolio/static/media/js.1b2759f5.svg",
-    "static/media/logo.b3aed95d.svg": "/react-deploy-portfolio/static/media/logo.b3aed95d.svg",
+    "static/media/loom.7e82761e.png": "/react-deploy-portfolio/static/media/loom.7e82761e.png",
+    "static/media/nykaa.a760594c.png": "/react-deploy-portfolio/static/media/nykaa.a760594c.png",
     "static/media/p2.1af9c8d1.jpg": "/react-deploy-portfolio/static/media/p2.1af9c8d1.jpg",
     "static/media/p3.04c87538.jpg": "/react-deploy-portfolio/static/media/p3.04c87538.jpg",
     "static/media/p4.c8fb2e2c.jpg": "/react-deploy-portfolio/static/media/p4.c8fb2e2c.jpg",
@@ -27,7 +29,7 @@
     "static/js/runtime-main.a9cbf7da.js",
     "static/css/2.adb406d7.chunk.css",
     "static/js/2.b78a4442.chunk.js",
-    "static/css/main.31f82639.chunk.css",
-    "static/js/main.ab3ab570.chunk.js"
+    "static/css/main.030b94d3.chunk.css",
+    "static/js/main.8d1c072b.chunk.js"
   ]
 }
