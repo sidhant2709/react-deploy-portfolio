@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-deploy-portfolio/static/css/main.030b94d3.chunk.css",
-    "main.js": "/react-deploy-portfolio/static/js/main.8d1c072b.chunk.js",
-    "main.js.map": "/react-deploy-portfolio/static/js/main.8d1c072b.chunk.js.map",
+    "main.css": "/react-deploy-portfolio/static/css/main.a8a4a8b9.chunk.css",
+    "main.js": "/react-deploy-portfolio/static/js/main.5b192726.chunk.js",
+    "main.js.map": "/react-deploy-portfolio/static/js/main.5b192726.chunk.js.map",
     "runtime-main.js": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js",
     "runtime-main.js.map": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js.map",
     "static/css/2.adb406d7.chunk.css": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b78a4442.chunk.js.map": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js.map",
     "index.html": "/react-deploy-portfolio/index.html",
     "static/css/2.adb406d7.chunk.css.map": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css.map",
-    "static/css/main.030b94d3.chunk.css.map": "/react-deploy-portfolio/static/css/main.030b94d3.chunk.css.map",
+    "static/css/main.a8a4a8b9.chunk.css.map": "/react-deploy-portfolio/static/css/main.a8a4a8b9.chunk.css.map",
     "static/js/2.b78a4442.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.b78a4442.chunk.js.LICENSE.txt",
     "static/media/Sid.43c2f4b4.jpg": "/react-deploy-portfolio/static/media/Sid.43c2f4b4.jpg",
     "static/media/App.css": "/react-deploy-portfolio/static/media/pexels-hasan-albari-1229861.2f0d2ede.jpg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.a9cbf7da.js",
     "static/css/2.adb406d7.chunk.css",
     "static/js/2.b78a4442.chunk.js",
-    "static/css/main.030b94d3.chunk.css",
-    "static/js/main.8d1c072b.chunk.js"
+    "static/css/main.a8a4a8b9.chunk.css",
+    "static/js/main.5b192726.chunk.js"
   ]
 }
