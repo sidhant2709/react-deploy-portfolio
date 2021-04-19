@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-deploy-portfolio/static/css/main.8ba998b0.chunk.css",
-    "main.js": "/react-deploy-portfolio/static/js/main.4c8a68e2.chunk.js",
-    "main.js.map": "/react-deploy-portfolio/static/js/main.4c8a68e2.chunk.js.map",
+    "main.js": "/react-deploy-portfolio/static/js/main.72623424.chunk.js",
+    "main.js.map": "/react-deploy-portfolio/static/js/main.72623424.chunk.js.map",
     "runtime-main.js": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js",
     "runtime-main.js.map": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js.map",
     "static/css/2.adb406d7.chunk.css": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css",
@@ -15,14 +15,15 @@
     "static/media/Sid.43c2f4b4.jpg": "/react-deploy-portfolio/static/media/Sid.43c2f4b4.jpg",
     "static/media/App.css": "/react-deploy-portfolio/static/media/pexels-hasan-albari-1229861.2f0d2ede.jpg",
     "static/media/aljazeera.4e55014f.png": "/react-deploy-portfolio/static/media/aljazeera.4e55014f.png",
+    "static/media/backend.f7339b8e.png": "/react-deploy-portfolio/static/media/backend.f7339b8e.png",
     "static/media/css.b0696b45.svg": "/react-deploy-portfolio/static/media/css.b0696b45.svg",
+    "static/media/frontend.947da0c8.svg": "/react-deploy-portfolio/static/media/frontend.947da0c8.svg",
     "static/media/html.10080bf9.svg": "/react-deploy-portfolio/static/media/html.10080bf9.svg",
     "static/media/js.1b2759f5.svg": "/react-deploy-portfolio/static/media/js.1b2759f5.svg",
     "static/media/loom.7e82761e.png": "/react-deploy-portfolio/static/media/loom.7e82761e.png",
     "static/media/nykaa.a760594c.png": "/react-deploy-portfolio/static/media/nykaa.a760594c.png",
-    "static/media/p2.1af9c8d1.jpg": "/react-deploy-portfolio/static/media/p2.1af9c8d1.jpg",
-    "static/media/p3.04c87538.jpg": "/react-deploy-portfolio/static/media/p3.04c87538.jpg",
     "static/media/p4.c8fb2e2c.jpg": "/react-deploy-portfolio/static/media/p4.c8fb2e2c.jpg",
+    "static/media/react.93a4bdf1.png": "/react-deploy-portfolio/static/media/react.93a4bdf1.png",
     "static/media/react.d580a556.svg": "/react-deploy-portfolio/static/media/react.d580a556.svg"
   },
   "entrypoints": [
@@ -30,6 +31,6 @@
     "static/css/2.adb406d7.chunk.css",
     "static/js/2.b78a4442.chunk.js",
     "static/css/main.8ba998b0.chunk.css",
-    "static/js/main.4c8a68e2.chunk.js"
+    "static/js/main.72623424.chunk.js"
   ]
 }
