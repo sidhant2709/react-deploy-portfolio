@@ -19,9 +19,17 @@
 button{
   background: none;
 }
+body{
+ font-family: 'Antonio',
+ sans-serif !important;
+ letter-spacing: 2px;
+}
 /* ====================================Navbar==================================== */
 .navbar{
   height: 10vh;
+  /* background: linear-gradient(#2c2c2c, #2D2421); */
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #161616 0%, #4b3c37 74%);
 }
 .navbar-brand {
   padding: 1.25rem !important;
@@ -29,11 +37,23 @@ button{
 }
 
 .logo{
-  width: 10.25rem;
+  font-family: 'Pattaya',
+  sans-serif !important;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:bisque;
+  font-weight: 700;
+  color: whitesmoke;
 }
 @media(max-width:768px) {
   .navbar{
-    height: auto;
+    height: 78px;
+  }
+  .logo{
+    font-size:1.5rem;
+    padding-top: 0rem;
   }
 }
 /* ====================================Navbar Links==================================== */
@@ -78,7 +98,6 @@ nav ul li{
   height: 100vh;
 }
 .main-info{
-  font-family: "Roboto Condesed"sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,8 +172,19 @@ nav ul li{
   height: auto;
   border: 0px solid white;
 }
+.about-header {
+  color: red;
+}
 .about-me-border{
   border: 0px solid white;
+}
+.about-paragraph{
+  font-family: 'Orelega One',
+  cursive;
+  letter-spacing: 0px;
+  line-height: 30px;
+  font-size: 1.3rem;
+  color: #f8f6f2 !important;
 }
 @media(max-width:767px) {
   .about-me {
@@ -165,8 +195,11 @@ nav ul li{
   }
   .about-paragraph {
     text-align: justify;
-    color: white;
     font-size: 14px;
+    font-family: 'Orelega One',
+    cursive;
+    letter-spacing: 0px;
+    line-height: 18px;
   }
 }
 @media(width:768px) {
@@ -179,8 +212,10 @@ nav ul li{
 
   .about-paragraph {
     text-align: justify;
-    color: white;
     font-size: 14px;
+    font-family: 'Orelega One',
+    cursive;
+    letter-spacing: 0px;
   }
 }
 @media(width:1024px) {
@@ -203,13 +238,8 @@ nav ul li{
   border: 2px solid #f9ab00;
 }
 
-.about-header{
-  color: #f9ab00;
-  text-transform: uppercase;
-}
 .about-paragraph{
   text-align: justify;
-  color: white;
 }
 @media(max-width:375px){
   .profile-img{
@@ -340,7 +370,7 @@ nav ul li{
 .portfolio-image{
   width: 15rem;
   height: 15rem;
-  border: 1px solid #f9ab00;
+  border: 0px solid #f9ab00;
   padding: 0 0.5rem;
 
 }
@@ -353,7 +383,7 @@ nav ul li{
   .portfolio-image {
     width: 20rem;
     height: 20rem;
-    border: 1px solid #f9ab00;
+    border: 0px solid #f9ab00;
     padding: 0 0.5rem;
   }
 }
@@ -370,6 +400,11 @@ nav ul li{
   top: 0;
   border: 1px solid #f9ab00;
   cursor: pointer;
+  text-align: center;
+}
+
+.overflow h3{
+  margin-top: 130px;
 }
 
 @media(min-width:1440px) {
@@ -380,9 +415,11 @@ nav ul li{
 }
 
 .portfolio-image-box:hover .overflow{
-  opacity: 85%;
+  opacity: 80%;
   transition: 0.3s ease-in-out;
+  color: #f9ab00;
 }
+
 
 .portfolio-icon{
   position: absolute;
@@ -394,7 +431,7 @@ nav ul li{
 }
 
 .portfolio-image-box:hover .portfolio-icon{
-  opacity: 80%;
+  opacity: 0;
   transition: 0.3sec ease-in-out;
   cursor: pointer;
 }
@@ -429,9 +466,15 @@ nav ul li{
   margin: auto;
   padding: 1rem;
 }
-.popup-box p,.popup-box h3{
+.popup-box p,
+.popup-box h3,
+.popup-box h2 {
   color: #f9ab00;
   font-weight: 600;
+}
+.popup-box p{
+  margin-top: 0.5rem;
+  text-align: justify;
 }
 .portfolio-image-popupbox {
   width: 90%;
@@ -644,12 +687,22 @@ nav ul li{
 /* =======================================Contact=================================== */
 
 .contacts{
-  background: #343A40;
-  padding: 3rem 0;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
+  url(./Images/contact-mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-container{
+  background: rgba(19, 28, 39, 0.8);
+  color: white;
+  padding: 1.5rem !important;
+  border-radius: 2rem;
 }
 .contacts h1{
-  color: #f9ab00;
+  color: rgb(255, 64, 64);
   padding: 1.3rem 0;
+  font-weight: 900 !important;
 }
 .contacts p{
   color: #f9ab00;
@@ -698,7 +751,7 @@ nav ul li{
   display: inline-block;
   height: 0.125rem;
   background: #f9ab00;
-  top: -2.1rem;
+  top: -2.2rem;
 }
 input:focus+.line,textarea:focus+.line{
   width: 100%;
@@ -712,14 +765,43 @@ textarea .form-control {
   margin: -0.3rem 0;
 }
 @media(max-width:768px){
+  
   .contacts{
+    padding: 1rem;
+    height: auto;
     overflow-x: hidden;
   }
   .contacts .container{
     padding: 0 1rem;
+    height: auto;
+  }
+  .contacts input,
+  .contacts textarea{
+    margin-bottom: 0.2rem;
   }
   .contacts p{
     padding: 0 0.4rem;
+  }
+  .contacts textarea {
+    height: 6rem !important;
+  }
+  .contact-btn {
+    margin: 1rem 0 0 0;
+    width: 100%;
+    border-color: #f9ab00;
+  }
+  .contacts h1 {
+    color: rgb(255, 64, 64);
+    padding: 1rem 0;
+    font-weight: 900 !important;
+  }
+
+  .contacts p {
+    color: #f9ab00;
+    font-size: 1rem;
+  }
+  .line {
+    top: -1.4rem;
   }
 } 
 
@@ -785,9 +867,53 @@ textarea .form-control {
   overflow-y: auto;
 }
 
-@media(max-height:850px) {
+@media(max-height:736px) {
   .downloader {
-    width: 200px;
+    width: 323px;
+    min-height: 128px;
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+}
+@media(height:812px) {
+  .downloader {
+    width: 340px;
+    min-height: 128px;
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+}
+@media(height:568px) {
+  .downloader {
+    width: 280px;
+    min-height: 128px;
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+}
+@media(height:736px) {
+  .downloader {
+    width: 380px;
+    min-height: 128px;
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+}
+@media(height:731px) {
+  .downloader {
+    width: 380px;
     min-height: 128px;
     position: fixed;
     right: 18px;

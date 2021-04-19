@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import p1 from "../Images/Projects Images/p1.jpg";
-import p2 from "../Images/Projects Images/p2.jpg"
-import p3 from "../Images/Projects Images/p3.jpg"
+import aljazeera from "../Images/Projects Images/aljazeera.png";
+import nykaa from "../Images/Projects Images/nykaa.png";
+import loom from "../Images/Projects Images/loom.png";
 import p4 from "../Images/Projects Images/p4.jpg";
 import cssIcon from "../Images/Icon Images/css.svg";
 import jsIcon from "../Images/Icon Images/js.svg"
@@ -17,8 +18,11 @@ const Projects = () => {
     const openProjectAlzajeera = () => {
         const content = (
             <div className="popup-box">
-                <img src={p1} alt="p1" className="portfolio-image-popupbox"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae temporibus deserunt eius autem corporis eveniet consequatur, mollitia accusantium quam quos omnis nulla quas impedit.</p>
+                <h2>PROJECT-1</h2>
+                <img src={aljazeera} alt="aljazeera" className="portfolio-image-popupbox" />
+                
+                <p>ALJAZEERA CLONE</p>
+               
                 <div className="link-button">
                     <button onClick={() => window.open("https://github.com/rohanranjan25061996/hexane-aljeera-clone")} className="github">GitHub Link</button>
                     <button className="demo">DEMO</button>
@@ -34,13 +38,14 @@ const Projects = () => {
         )
         PopupboxManager.open({ content });
     }
-   const openP2 = () => {
+   const openProjectNykaa = () => {
         const content = (
             <div className="popup-box">
-                <img src={p2} alt="p2" className="portfolio-image-popupbox"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae temporibus deserunt eius autem corporis eveniet consequatur, mollitia accusantium quam quos omnis nulla quas impedit.</p>
+                <h2>PROJECT-2</h2>
+                <img src={nykaa} alt="p2" className="portfolio-image-popupbox"/>
+                <p>NYKAA CLONE</p>
                 <div className="link-button">
-                    <button onClick={() => window.open("https://github.com/rohanranjan25061996/hexane-aljeera-clone")} className="github">GitHub Link</button>
+                    <button onClick={() => window.open("https://github.com/divy25/lithiumProject")} className="github">GitHub Link</button>
                     <button className="demo">DEMO</button>
                 </div>
                 <h3>Technologies used</h3>
@@ -55,13 +60,14 @@ const Projects = () => {
         PopupboxManager.open({content})
     }
 
-    const openP3 = () => {
+    const openProjectLoom = () => {
         const content = (
             <div className="popup-box">
-                <img src={p1} alt="p1" className="portfolio-image-popupbox"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae temporibus deserunt eius autem corporis eveniet consequatur, mollitia accusantium quam quos omnis nulla quas impedit.</p>
+                <h2>PROJECT-3</h2>
+                <img src={loom} alt="loom" className="portfolio-image-popupbox"/>
+                <p>LOOM CLONE</p>
                 <div className="link-button">
-                    <button onClick={() => window.open("https://github.com/rohanranjan25061996/hexane-aljeera-clone")} className="github">GitHub Link</button>
+                    <button onClick={() => window.open("https://github.com/aman73650/Bromine")} className="github">GitHub Link</button>
                     <button className="demo">DEMO</button>
                 </div>
                 <h3>Technologies used</h3>
@@ -81,7 +87,7 @@ const Projects = () => {
                 <img src={p1} alt="p1" className="portfolio-image-popupbox"/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae temporibus deserunt eius autem corporis eveniet consequatur, mollitia accusantium quam quos omnis nulla quas impedit.</p>
                 <div className="link-button">
-                    <button onClick={() => window.open("https://github.com/rohanranjan25061996/hexane-aljeera-clone")} className="github">GitHub Link</button>
+                    <button onClick={() => window.open("https://github.com/divy25/lithiumProject")} className="github">GitHub Link</button>
                     <button className="demo">DEMO</button>
                 </div>
                 <h3>Technologies used</h3>
@@ -103,24 +109,30 @@ const Projects = () => {
 
 
                     <div className="portfolio-image-box" onClick={openProjectAlzajeera}>
-                        <img src={p1} className="portfolio-image" alt="p1" />
-                        <div className="overflow"></div>
+                        <img src={aljazeera} className="portfolio-image" alt="p1" />
+                        <div className="overflow">
+                            <h3>Aljazeera Clone</h3>
+                        </div>
                         <FaSearchPlus className="portfolio-icon"/>
                     </div>
                 
 {/* ====================================================================================================== */}
                 
-                    <div className="portfolio-image-box" onClick={openP2}>
-                        <img src={p2} className="portfolio-image" alt="p2" />
-                        <div className="overflow"></div>
+                    <div className="portfolio-image-box" onClick={openProjectNykaa}>
+                        <img src={nykaa} className="portfolio-image" alt="nykaa" />
+                        <div className="overflow">
+                            <h3>Nykaa Clone</h3>
+                        </div>
                         <FaSearchPlus className="portfolio-icon"/>
                     </div>
                 
 {/* ====================================================================================================== */}
                 
-                    <div className="portfolio-image-box" onClick={openP3}>
-                        <img src={p3} className="portfolio-image" alt="p3" />
-                        <div className="overflow"></div>
+                    <div className="portfolio-image-box" onClick={openProjectLoom}>
+                        <img src={loom} className="portfolio-image" alt="loom" />
+                        <div className="overflow">
+                            <h3>Loom Clone</h3>
+                        </div>
                         <FaSearchPlus className="portfolio-icon"/>
                     </div>
                 

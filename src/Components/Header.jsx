@@ -2,7 +2,9 @@
 // /* eslint-disable jsx-a11y/anchor-is-valid */
 // import React from 'react';
 // import Typed from "react-typed";
-// import { Link } from "react-scroll";
+
+// import resume from "./files/Resume.pdf";
+
 
 
 // const Header = () => {
@@ -17,7 +19,7 @@
 //                     backSpeed={60}
 //                     loop
 //                 />
-//                 <Link smooth={true} to="contacts" href="#" className="btn-main-offer">contact me</Link>
+//                 <a href={resume} download className="btn-main-offer">Download Resume</a>
 //             </div>
 //         </div>
 //     )
@@ -25,11 +27,15 @@
 
 // export default Header
 
+
+
+
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Typed from "react-typed";
 import useFileDownloader from "./Hooks/useFileDownloder";
+
 
 const file = {
     file:

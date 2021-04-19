@@ -43,7 +43,7 @@ const Contact = () => {
                 <h1>Contact Me</h1>
                 <p>Please fill out the form</p>
             </div>
-            <div className="container">
+            <div className="container contact-container">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                         <div className="col col-mf-6 col-xs-12">
@@ -85,7 +85,7 @@ const Contact = () => {
                                     name="description"></textarea>
                                 <div className="line"></div>
                             </div>
-                            <button className="btn-main-offer contact-btn" type="submit">Contact Me</button>
+                            <button className="btn-main-offer contact-btn" type="submit">Submit</button>
                         </div>
                     </div>
                 </form>

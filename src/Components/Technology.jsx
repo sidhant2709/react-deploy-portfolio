@@ -4,7 +4,7 @@ import TechnologyCarousel from './TechnologyCarousel'
 const Technology = () => {
     return (
         <div className="technologies">
-            <h1>Technology I use</h1>
+            <h1>Proficiencies</h1>
             <div className="container">
                 <div className="technologies-content">
                     <TechnologyCarousel/>

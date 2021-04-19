@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import logo from '../Images/logo.svg';
 import { FaBars } from 'react-icons/fa';
 import { Link } from "react-scroll";
 
@@ -9,7 +8,7 @@ const Navbar = () => {
        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div className="container">
                 <Link className="navbar-brand" href="#">
-                    <img src={logo} alt="logo" className="logo"/>
+                    <h2 className="logo">Portfolio</h2>
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

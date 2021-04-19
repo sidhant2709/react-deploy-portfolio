@@ -19,7 +19,7 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 80,
               density: {
                 enable: true,
                 value_area:900
@@ -28,7 +28,7 @@ function App() {
             shape: {
               type: "circle",
               stroke: {
-                width: 6,
+                width: 8,
                 color:"#f9ab00"
               }
             }
