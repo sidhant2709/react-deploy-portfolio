@@ -318,7 +318,7 @@ nav ul li {
   border: 0.2125rem solid white;
   background: darkorange;
   margin-top: 0.625rem;
-  z-index: 3;
+  z-index: 0;
 }
 
 .timeline-content{
