@@ -104,7 +104,7 @@ const Projects = () => {
     return (
         <div id="projects" className="portfolio-wrapper">
             <h1 className="text-uppercase text-center heading">Projects</h1>
-            <div className="container-fluid box">
+            <div className="container-fluid">
                 <div className="image-box-wrapper row justify-content-center">
 
 

@@ -3,7 +3,7 @@ import TechnologyCarousel from './TechnologyCarousel'
 
 const Technology = () => {
     return (
-        <div className="technologies">
+        <div id ="technologies" className="technologies">
             <h1>Proficiencies</h1>
             <div className="container">
                 <div className="technologies-content">

@@ -25,18 +25,17 @@ body{
  letter-spacing: 2px;
 }
 /* ====================================Navbar==================================== */
+
+nav {
+  z-index: 2;
+  position: sticky !important;
+  top: 0;
+}
 .navbar{
-  height: 10vh;
-  /* background: linear-gradient(#2c2c2c, #2D2421); */
   background-color: #000000;
   background-image: linear-gradient(147deg, #161616 0%, #4b3c37 74%);
 }
-.navbar-brand {
-  padding: 1.25rem !important;
-  max-width: 17.25rem;
-}
-
-.logo{
+.logo {
   font-family: 'Pattaya',
   sans-serif !important;
   font-size: 2.5rem;
@@ -47,71 +46,79 @@ body{
   font-weight: 700;
   color: whitesmoke;
 }
-@media(max-width:768px) {
-  .navbar{
-    height: 78px;
-  }
-  .logo{
-    font-size:1.5rem;
-    padding-top: 0rem;
-  }
-}
-/* ====================================Navbar Links==================================== */
 
-nav{
-  z-index: 2;
-}
-nav a.nav-link{
+/*----- MENU LINKS --------*/
+nav a.nav-link {
+  font-size: .8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
 
-nav ul li{
+nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav>li>a{
+.navbar-nav>li>a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  color: var(--primary-white) !important;
   border-top: 0.1875rem solid rgba(255, 255, 255, 0);
-  
 }
 
-.navbar-nav>li>a.active,.navbar-nav>li>a:focus{
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  /* height: 6rem !important; */
+}
+
+@media(max-width: 768px) {
+  .logo {
+     font-size: 1.5rem;
+     padding-top: 1rem;
+   }
+  .navbar-brand{
+    padding: 1rem !important;
+  }
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a:focus {
   border-top:0.1875rem solid #f9ab00;
 }
 
-.navbar-nav>li>a:hover{
+.navbar-nav>li>a:hover {
   border-top:0.1875rem solid #f9ab00;
 }
-
 
 /* ====================================Header==================================== */
 
-.header-wrapper{
+.header-wrapper {
   position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url('./Images/pexels-hasan-albari-1229861.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
 }
-.main-info{
+
+.main-info {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   z-index: 1;
 }
-.main-info h1{
-  color :#f9ab00; 
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
 
 /* =========typed text=========== */
@@ -682,7 +689,36 @@ nav ul li{
   margin: auto !important;
   margin-top: 3% !important;
 }
-
+/* =======================================Blogs=================================== */
+.blogs{
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent),
+  url(./Images/pexels-pixabay-261662.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blogs h1{
+  color: red;
+}
+.box{
+  border: 1px solid black;
+  background: rgba(19, 28, 39, 0.5);
+}
+.box img{
+  width: 100%;
+  height: 180px;
+}
+.box button{
+  outline: none;
+  border: none;
+  color: red;
+  background: rgba(19, 28, 39, 1);
+}
+.box button:hover{
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.5s ease-in-out;
+}
 
 /* =======================================Contact=================================== */
 
