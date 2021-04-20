@@ -10,7 +10,7 @@ const Experiences = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>2020-2021</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
                     </div>
                 </div>
@@ -18,7 +18,7 @@ const Experiences = () => {
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>2017-2020</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
                     </div>
                 </div>
@@ -26,18 +26,11 @@ const Experiences = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>2016-2017</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
                     </div>
                 </div>
 {/* ========================================================================================================= */}
-                <div className="timeline-block timeline-block-left">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                        <h3>2014-2015</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
-                    </div>
-                </div>
             </div>
         </div>
     )

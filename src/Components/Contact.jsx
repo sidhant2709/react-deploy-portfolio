@@ -42,6 +42,7 @@ const Contact = () => {
             <div className="text-center">
                 <h1>Contact Me</h1>
                 <p>Please fill out the form</p>
+                <span className="success-message">{successMessage}</span>
             </div>
             <div className="container contact-container">
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -59,32 +60,84 @@ const Contact = () => {
                                     })
                                 }/>
                                 <div className="line"></div>
-                                <span className="error-message">
-                                    {errors.name && errors.name.message}
-                                </span>
                             </div>
+                            <span className="error-message">
+                                {errors.name && errors.name.message}
+                            </span>
                             <div className="text-center">
                                 <input id="phone" type="text" className="form-control" placeholder="Phone Number"
-                                    name="phone"/>
+                                    name="phone"
+                                    ref={
+                                        register({
+                                            required:"Please add your Phone Number"
+                                        })
+                                    }
+                                />
                                 <div className="line"></div>
                             </div>
+                            <span className="error-message">
+                                {errors.phone && errors.phone.message}
+                            </span>
                             <div className="text-center">
-                                <input id="email" type="email" className="form-control" placeholder="Email" name="email" />
+                                <input
+                                    id="email"
+                                    type="email"
+                                    className="form-control"
+                                    placeholder="Email"
+                                    name="email"
+                                    ref={
+                                        register({
+                                        required: "Please provide you email",
+                                        pattern: {
+                                            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                                            message: "invalid Email"
+                                        }
+                                        })
+                                    }
+                                />
                                 <div className="line"></div>
                             </div>
-
+                            <span className="error-message">
+                                {errors.email && errors.email.message}
+                            </span>
                             <div className="text-center">
-                                <input id="subject" type="text" className="form-control" placeholder="Subject"
-                                    name="subject" />
+                                <input
+                                    id="subject"
+                                    type="text"
+                                    className="form-control"
+                                    placeholder="Subject"
+                                    name="subject"
+                                    ref={
+                                        register({
+                                        required: "OOPS, you forget to add the subject.",
+                                        })
+                                    }
+                                />
                                 <div className="line"></div>
                             </div>
+                            <span className="error-message">
+                                {errors.subject && errors.subject.message}
+                            </span>
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <div className="text-center">
-                                <textarea type="text" id="description" className="form-control" placeholder="Description"
-                                    name="description"></textarea>
+                                <textarea
+                                    type="text"
+                                    id="description"
+                                    className="form-control"
+                                    placeholder="Description"
+                                    name="description"
+                                    ref={
+                                        register({
+                                        required: "Please describe shortly your project needs...",
+                                        })
+                                    }
+                                ></textarea>
                                 <div className="line"></div>
                             </div>
+                            <span className="error-message">
+                                {errors.description && errors.description.message}
+                            </span>
                             <button className="btn-main-offer contact-btn" type="submit">Submit</button>
                         </div>
                     </div>

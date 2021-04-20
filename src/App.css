@@ -734,6 +734,7 @@ nav ul li {
   color: white;
   padding: 1.5rem !important;
   border-radius: 2rem;
+  margin-top: 1rem;
 }
 .contacts h1{
   color: rgb(255, 64, 64);
@@ -800,6 +801,18 @@ input .form-control{
 textarea .form-control {
   margin: -0.3rem 0;
 }
+
+.error-message {
+  color: red;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: lightgreen;
+  margin-bottom: 1.5rem;
+}
+
 @media(max-width:768px){
   
   .contacts{
