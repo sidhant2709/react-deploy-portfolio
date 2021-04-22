@@ -10,8 +10,9 @@ const Experiences = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2020-2021</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
+                        <h3>2020-Present</h3>
+                        <h4>AMAZON-ROC</h4>
+                        <p>Transportation Specialist - I</p>
                     </div>
                 </div>
 {/* ========================================================================================================= */}
@@ -19,7 +20,8 @@ const Experiences = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2017-2020</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
+                        <h4>CIMS-BHUBANESWAR</h4>
+                        <p>Online Marketing Executive</p>
                     </div>
                 </div>
 {/* ========================================================================================================= */}
@@ -27,7 +29,8 @@ const Experiences = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2016-2017</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ullam dolore similique accusamus error molestias praesentium fuga eos expedita neque?</p>
+                        <h4>COGNIZANT TECHNOLOGY SOLUTIONS-KOLKATA</h4>
+                        <p>Program Analyst</p>
                     </div>
                 </div>
 {/* ========================================================================================================= */}

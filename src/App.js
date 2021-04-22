@@ -10,6 +10,7 @@ import Projects from './Components/Projects';
 import Technology from './Components/Technology';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Tech from './Components/Tech';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <Technology/>
+      <Technology />
+      <Tech/>
       <Experiences />
       <Projects />
       <Blogs/>

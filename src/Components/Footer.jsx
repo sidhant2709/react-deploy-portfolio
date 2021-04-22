@@ -5,9 +5,9 @@ import {MdEmail} from 'react-icons/md';
 import {
     FacebookShareButton,
     FacebookIcon,
-    TwitterShareButton,
+   
     TwitterIcon,
-    LinkedinShareButton,
+
     LinkedinIcon
 } from "react-share";
 import { Link } from "react-scroll";
@@ -53,18 +53,14 @@ const Footer = () => {
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
                             <FacebookShareButton
-                                url={"https://www.facebook.com/sidhant.sahoo.270992"}
+                                url={"https://sidhant2709.github.io/react-deploy-portfolio/"}
                                 quote={"Full Stack Developer"}
                                 hashtag="#javascript"
                             >
                                 <FacebookIcon className="mx-3" size={36} />
                             </FacebookShareButton>
-                            <TwitterShareButton>
-                                <TwitterIcon className="mx-3" size={36}/>
-                            </TwitterShareButton>
-                            <LinkedinShareButton>
-                                <LinkedinIcon className="mx-3" size={36}/>
-                            </LinkedinShareButton>
+                            <TwitterIcon className="mx-3 share" size={36} onClick={() => window.open("https://www.linkedin.com/in/sidhant-kumar-sahoo-08a8291b8/")}/>
+                            <LinkedinIcon className="mx-3 share" size={36} onClick={() => window.open("https://www.linkedin.com/in/sidhant-kumar-sahoo-08a8291b8/")}/>
                         </div>
                         <p className="pt-3 text-center">
                             Copyright&copy;

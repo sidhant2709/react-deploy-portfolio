@@ -52,12 +52,15 @@ const Header = () => {
                 <h1>Hello, I'm SIDHANT KUMAR SAHOO</h1>
                 <Typed
                     className="typed-text"
-                    strings={["I am a Full Stack Developer"]}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    strings={["I am an Aspiring Full Stack Developer"]}
+                    typeSpeed={30}
+                    backSpeed={30}
                     loop
                 />
-                <button className="btn-main-offer" onClick={()=>download(file)}>Download Resume</button>
+                <div>
+                    <button className="btn-main-offer" onClick={() => download(file)}>Download Resume</button>
+                    <button className="btn-main-offer" onClick={() => window.open("https://www.linkedin.com/in/sidhant-kumar-sahoo-08a8291b8/")}>Linked In</button>
+                </div>
             </div>
             {downloaderComponentUI}
         </div>

@@ -141,11 +141,11 @@ nav ul li {
 .btn-main-offer{
   border:1px solid #ef4035;
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 1rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   text-decoration: none;
   color: white;
-  margin: 2rem;
+  margin: 2rem 0.5rem;
 }
 .btn-main-offer:hover{
   text-decoration: none;
@@ -331,11 +331,21 @@ nav ul li {
   /* max-width: 0.3125rem; */
   font-weight: 500;
   color: red;
-  border: 0px solid black;
+  border: 0px solid whitesmoke;
 }
+
+@media(min-width:768px){
+  .timeline-block-left .timeline-content{
+    text-align: end;
+  }
+}
+
 
 .timeline-content p{
   color: white;
+}
+.experiences h4{
+  color: var(--primary-orange);
 }
 
 @media(max-width:768px){
@@ -892,7 +902,9 @@ textarea .form-control {
   display: flex;
   flex-direction: column;
 }
-
+.share{
+  cursor: pointer;
+}
 /* ===================================================================== */
 
 .downloader {
@@ -969,5 +981,51 @@ textarea .form-control {
     bottom: 18px;
     max-height: 700px;
     overflow-y: auto;
+  }
+} 
+
+/* =================================================================================================================== */
+.tech-stacks {
+  height: auto;
+  padding: 5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
+  url(./Images/pexels-danny-meneses-943096.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tech-cont{
+  background: rgba(218, 218, 218, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.tech-stacks h1{
+  margin-bottom: 3rem;
+  color: #f96400;
+}
+.avatar {
+  border: 0px solid black;
+  width: 5rem;
+  height: 5rem;
+  
+}
+@media(max-width:768px) {
+  .tech-stacks {
+    height: auto;
+    padding: 3rem;
+  }
+ .avatar {
+   border: 0px solid black;
+   width: 4rem;
+   height: 4rem;
+ }
+ .tech-cont {
+   background: rgba(255, 255, 255);
+   padding: 0rem;
+ }
+}
+@media(height:653px) {
+  .avatar {
+    width: 5rem;
   }
 }
