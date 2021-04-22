@@ -35,6 +35,7 @@
 import React from 'react';
 import Typed from "react-typed";
 import useFileDownloader from "./Hooks/useFileDownloder";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 const file = {
@@ -58,8 +59,9 @@ const Header = () => {
                     loop
                 />
                 <div>
+                    <button className="btnGit" onClick={() => window.open("https://github.com/sidhant2709")}><FaGithub size="35"/></button>
                     <button className="btn-main-offer" onClick={() => download(file)}>Download Resume</button>
-                    <button className="btn-main-offer" onClick={() => window.open("https://www.linkedin.com/in/sidhant-kumar-sahoo-08a8291b8/")}>Linked In</button>
+                    <button className="btnGit" onClick={() => window.open("https://www.linkedin.com/in/sidhant-kumar-sahoo-08a8291b8/")}><FaLinkedin size="35"/></button>
                 </div>
             </div>
             {downloaderComponentUI}

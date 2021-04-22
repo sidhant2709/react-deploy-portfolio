@@ -5,9 +5,7 @@ import {MdEmail} from 'react-icons/md';
 import {
     FacebookShareButton,
     FacebookIcon,
-   
     TwitterIcon,
-
     LinkedinIcon
 } from "react-share";
 import { Link } from "react-scroll";
