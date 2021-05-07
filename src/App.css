@@ -11,19 +11,28 @@
   --primary-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
 }
-*{
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-button{
+
+button {
   background: none;
 }
-body{
- font-family: 'Antonio',
- sans-serif !important;
- letter-spacing: 2px;
+
+body {
+  font-family: 'Antonio',
+    sans-serif !important;
+  letter-spacing: 2px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #03011b 0%, #000000 74%);
+
+
+
 }
+
 /* ====================================Navbar==================================== */
 
 nav {
@@ -31,18 +40,20 @@ nav {
   position: sticky !important;
   top: 0;
 }
-.navbar{
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #161616 0%, #4b3c37 74%);
+
+.navbar {
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
 }
+
 .logo {
   font-family: 'Pattaya',
-  sans-serif !important;
+    sans-serif !important;
   font-size: 2.5rem;
   padding-top: 1rem;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color:bisque;
+  -webkit-text-fill-color: bisque;
   font-weight: 500;
 }
 
@@ -72,21 +83,22 @@ nav ul li {
 
 @media(max-width: 768px) {
   .logo {
-     font-size: 1.5rem;
-     padding-top: 1rem;
-   }
-  .navbar-brand{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .navbar-brand {
     padding: 1rem !important;
   }
 }
 
 .navbar-nav>li>a.active,
 .navbar-nav>li>a:focus {
-  border-top:0.1875rem solid #f9ab00;
+  border-top: 0.1875rem solid #f9ab00;
 }
 
 .navbar-nav>li>a:hover {
-  border-top:0.1875rem solid #f9ab00;
+  border-top: 0.1875rem solid #f9ab00;
 }
 
 /* ====================================Header==================================== */
@@ -94,7 +106,7 @@ nav ul li {
 .header-wrapper {
   position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('./Images/pexels-hasan-albari-1229861.jpg');
+    url('./Images/pexels-danny-meneses-943096.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,7 +134,7 @@ nav ul li {
 
 /* =========typed text=========== */
 
-.typed-text{
+.typed-text {
   font-size: 2rem;
   color: #fff;
 }
@@ -137,7 +149,7 @@ nav ul li {
   }
 }
 
-.btn-main-offer{
+.btn-main-offer {
   background: #343A40;
   text-transform: uppercase;
   border-radius: 1rem;
@@ -148,7 +160,8 @@ nav ul li {
   outline: none;
   border: none;
 }
-.btnGit{
+
+.btnGit {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   text-decoration: none;
   color: white;
@@ -156,11 +169,13 @@ nav ul li {
   outline: none;
   border: none;
 }
-.btnGit:focus{
+
+.btnGit:focus {
   outline: none;
   border: none;
 }
-.btn-main-offer:hover{
+
+.btn-main-offer:hover {
   text-decoration: none;
   background-color: red;
   color: white;
@@ -169,8 +184,8 @@ nav ul li {
 
 /* ==================Particles=================== */
 
-.tsparticles-canvas-el{
-  position:absolute;
+.tsparticles-canvas-el {
+  position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
@@ -184,48 +199,99 @@ nav ul li {
 
 /*====================================About ME====================================*/
 .about-me {
-  background: linear-gradient(to bottom, rgba(0, 0, 0,0.9), rgba(0, 0, 0, 0.8)),
-  url('./Images/aboutme.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: auto;
   border: 0px solid white;
 }
+
 .about-header {
   color: red;
 }
-.about-me-border{
-  border: 0px solid white;
+
+.quote {
+  margin-top: 2rem;
+  position: relative;
+  border: 0px solid whitesmoke;
+  padding: 1rem;
 }
-.about-paragraph{
-  font-family: 'Orelega One',
-  cursive;
-  letter-spacing: 0px;
-  line-height: 30px;
-  font-size: 1.3rem;
-  color: #f8f6f2 !important;
+
+.quote p {
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+  color: #00aaf9;
 }
+
+.quote-by {
+  position: absolute;
+  margin-bottom: 100px;
+  bottom: 0;
+  right: 0;
+  transform: translateY(400%);
+  font-family: 'Dancing Script', cursive;
+  color: #00f915;
+}
+
+.my-photo {
+  border: 0px solid rgb(233, 233, 233) !important;
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20%;
+  padding: 0.3rem;
+  border: 0px solid #f9ab00;
+}
+
+
+.my-name {
+  color: #f9ab00;
+  font-size: 2rem;
+}
+
+.about-paragraph {
+  margin-top: 1rem;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2rem;
+  letter-spacing: 0.8px;
+  color: whitesmoke;
+}
+
+.masai {
+  color: burlywood;
+}
+
+@media(max-width:375px) {
+  .profile-img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+
 @media(max-width:767px) {
   .about-me {
-    background-color: #343A40;
-    border: 0px solid white;
     height: auto;
     padding-top: 0rem;
   }
+
   .about-paragraph {
     text-align: justify;
     font-size: 14px;
-    font-family: 'Orelega One',
-    cursive;
     letter-spacing: 0px;
-    line-height: 18px;
   }
 }
+
 @media(width:768px) {
   .about-me {
-    background-color: #343A40;
-    border: 0px solid white;
     height: 60vh;
     padding-top: 0rem;
   }
@@ -233,98 +299,76 @@ nav ul li {
   .about-paragraph {
     text-align: justify;
     font-size: 14px;
-    font-family: 'Orelega One',
-    cursive;
-    letter-spacing: 0px;
   }
 }
+
 @media(width:1024px) {
   .about-me {
-    background-color: #343A40;
     height: auto;
   }
 }
-.photo-wrap{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-.profile-img{
-  width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
-  padding: 0.3rem;
-  border: 2px solid #f9ab00;
-}
 
-.about-paragraph{
-  text-align: justify;
-}
-@media(max-width:375px){
-  .profile-img{
-    width: 10rem;
-    height: 10rem;
-  }
-}
+
 /* ============================experiences============================== */
-.experiences{
+.experiences {
   height: auto;
   border: 0px solid white;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
-  url('./Images/experience.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 1rem;
 }
 
-@media(max-width:768px){
-  .experiences{
+@media(max-width:768px) {
+  .experiences {
     border: 0px solid white;
     height: auto;
   }
-  .experience-wrapper{
+
+  .experience-wrapper {
     padding: 0;
     border: 0px solid white;
   }
 }
-.experiences h1{
+
+.experiences h1 {
   text-transform: uppercase;
   color: #f9ab00;
 }
-.experience-wrapper{
+
+.experience-wrapper {
   position: relative;
   padding: 3.125rem 0;
   overflow: hidden;
 }
-.experience-wrapper::before{
+
+.experience-wrapper::before {
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
   margin-left: -0.0625rem;
-  width: 0.0125rem;
+  width: 0.125rem;
   height: 100%;
   background: grey;
   z-index: 1;
 }
 
-.timeline-block{
+.timeline-block {
   width: calc(50% + 0.5rem);
   display: flex;
   justify-content: space-between;
   clear: both;
 }
 
-.timeline-block-right{
+.timeline-block-right {
   float: right;
 }
-.timeline-block-left{
+
+.timeline-block-left {
   float: left;
   direction: rtl;
 }
-.marker{
+
+.marker {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
@@ -334,81 +378,108 @@ nav ul li {
   z-index: 0;
 }
 
-.timeline-content{
+.timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
   color: #343A40;
   direction: ltr;
 }
-.timeline-content h3{
+
+.timeline-content h3 {
   /* max-width: 0.3125rem; */
   font-weight: 500;
   color: red;
   border: 0px solid whitesmoke;
 }
 
-@media(min-width:768px){
-  .timeline-block-left .timeline-content{
+@media(min-width:768px) {
+  .timeline-block-left .timeline-content {
     text-align: end;
   }
+  
 }
 
 
-.timeline-content p{
-  color: white;
-}
-.experiences h4{
-  color: var(--primary-orange);
+.timeline-content p {
+  color: chocolate;
+  font-weight: 600;
 }
 
-@media(max-width:768px){
+.experiences h4 {
+  color: yellowgreen;
+}
+
+@media(max-width:768px) {
   .experiences .container {
     padding-left: 0;
   }
-  .experience-wrapper::before{
+
+  .experience-wrapper::before {
     left: 0.5rem;
     margin-bottom: 1.875rem;
   }
-  .timeline-block-right{
+
+  .timeline-block-right {
     float: none;
     width: 100%;
   }
-  .timeline-block-left{
+
+  .timeline-block-left {
     float: none;
     direction: ltr;
     width: 100%;
   }
+  
 
+}
+
+.role {
+  font-family: 'Dancing Script', cursive;
+  color: #87a2f8;
+  font-size: 1.5rem;
 }
 
 /* ============================projects============================== */
 
-.portfolio-wrapper{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
-  url('./Images/p1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.portfolio-wrapper {
   padding: 2rem 1rem;
   height: auto;
 }
 
-.heading{
+.heading {
   color: #f9ab00;
 }
 
-.portfolio-image{
+.portfolio-image-box {
+  margin: 1rem;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  opacity: 90%;
+  background: rgba(45, 41, 41, 0.30);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 0px solid rgba(255, 255, 255, 0.18);
+}
+
+.portfolio-image-box h2 {
+  color: coral;
+  margin-bottom: 1rem;
+}
+
+.portfolio-image {
   width: 15rem;
   height: 15rem;
   border: 0px solid #f9ab00;
   padding: 0 0.5rem;
-
+  opacity: 80%;
 }
 
-.portfolio-image-box{
-  position: relative;
-  margin: 1rem;
-}
 @media(min-width:1440px) {
   .portfolio-image {
     width: 20rem;
@@ -421,71 +492,22 @@ nav ul li {
 
 /* =======================================Overflow Box=================================== */
 
-.overflow{
-  position: absolute;
-  opacity: 0;
-  background: black;
-  width: 15rem;
-  height: 15rem;
-  top: 0;
-  border: 1px solid #f9ab00;
-  cursor: pointer;
-  text-align: center;
-}
-
-.overflow h3{
-  margin-top: 130px;
-}
-
-@media(min-width:1440px) {
-  .overflow{
-    width: 20rem;
-    height: 20rem;
-  }
-}
-
-.portfolio-image-box:hover .overflow{
-  opacity: 80%;
-  transition: 0.3s ease-in-out;
-  color: #f9ab00;
-}
 
 
-.portfolio-icon{
-  position: absolute;
-  opacity: 0;
-  margin-left: -11rem;
-  margin-top: 8.6rem;
-  color: #f9ab00;
-  font-size: 2.5rem;
-}
 
-.portfolio-image-box:hover .portfolio-icon{
-  opacity: 0;
-  transition: 0.3sec ease-in-out;
-  cursor: pointer;
-}
 
-@media(max-width:1440px) {
-  .portfolio-icon {
-    position: absolute;
-    opacity: 0;
-    margin-left: -9rem;
-    margin-top: 6rem;
-    color: #f9ab00;
-    font-size: 2.5rem;
-  }
-}
+
+
 /* =======================================POPUP BOX=================================== */
 
-.popupbox-wrapper{
-  margin-top: 5rem;
-  background: linear-gradient(to bottom, rgba(71, 70, 70, 0.9), rgba(58, 57, 57, 0.9)),url("./Images/pexels-fauxels-3183150.jpg");
-  color: white;
+.popupbox-wrapper {
+  margin-top: 0rem;
+  background: linear-gradient(to bottom, rgba(71, 70, 70, 0.9), rgba(58, 57, 57, 0.9)), url("./Images/pexels-fauxels-3183150.jpg");
   border: 0px solid white;
   width: 25%;
 }
-.popup-box{
+
+.popup-box {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -496,37 +518,45 @@ nav ul li {
   margin: auto;
   padding: 1rem;
 }
+
 .popup-box p,
 .popup-box h3,
 .popup-box h2 {
   color: #f9ab00;
   font-weight: 600;
 }
-.popup-box p{
+
+.popup-box p {
   margin-top: 0.5rem;
   text-align: justify;
 }
+
 .portfolio-image-popupbox {
   width: 90%;
 }
-.link-button{
+
+.link-button {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   border: 0px solid black;
   margin: 10px;
 }
-.github,.demo{
+
+.github,
+.demo {
   color: #f9ab00;
   font-weight: 700;
 }
-.technology-used{
+
+.technology-used {
   width: 60%;
   border: 0px solid black;
   display: flex;
   justify-content: space-evenly;
 }
-.tech-icon{
+
+.tech-icon {
   width: 60px;
   height: 80px;
 }
@@ -539,15 +569,18 @@ nav ul li {
 
 @media(max-height: 812px) {
   .popupbox-wrapper {
-    height: 450px;
+    height: 400px;
     border: 0px solid white;
   }
-  .popup-box{
-    gap: 0px;
+
+  .popup-box {
+    gap: 5px;
   }
-  .popup-box p{
+
+  .popup-box p {
     text-align: justify;
   }
+
   .portfolio-image-popupbox {
     width: 70%;
   }
@@ -556,10 +589,12 @@ nav ul li {
     width: 40px;
     height: 40px;
   }
-  .popup-box h3{
+
+  .popup-box h3 {
     font-size: 1rem;
   }
 }
+
 @media(height: 568px) {
   .popupbox-wrapper {
     height: 400px;
@@ -601,143 +636,150 @@ nav ul li {
 
   }
 }
-@media only screen and (min-width: 1200px) and (min-height:667px){
-  .popupbox-wrapper{
+
+@media only screen and (min-width: 1200px) and (min-height:667px) {
+  .popupbox-wrapper {
     margin-top: 4rem;
     border: 0px solid white;
     height: auto;
-    width: 35%;
+    width: 28%;
+    padding: 0 !important;
   }
-  .popup-box{
+
+  .popup-box {
     border: 0px solid white;
-    gap: 0px;
+    gap: 10px;
   }
+
   .portfolio-image-popupbox {
-    width: 70%;
-    border: 0px solid white;
+    width: 80%;
+    border: 0px solid rgb(173, 15, 15);
     height: auto;
   }
+
   .popup-box p {
     text-align: justify;
     border: 0px solid white;
     letter-spacing: 1px;
   }
+
   .tech-icon {
     width: 60px;
     height: 60px;
   }
+
   .popup-box h3 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
+
 /* =======================================Technology Carsoual=================================== */
 
-.technologies{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("./Images/pexels-fauxels-3183150.jpg");
-    background-size: cover;
-    text-align: center;
-    margin-bottom: 0;
-    width: 100%;
-    border: 0px solid white;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 2rem;
-    height: auto;
+.technologies {
+  text-align: center;
+  margin-bottom: 0;
+  width: 100%;
+  border: 0px solid white;
+  padding-bottom: 2rem;
+  height: auto;
 }
 
 @media(max-width:768px) {
-  .technologies{
+  .technologies {
     height: auto;
     border: 0px solid white;
   }
-  .technologies h1{
+
+  .technologies h1 {
     font-size: 1.5rem;
   }
 }
-.technologies h1{
+
+.technologies h1 {
   color: #ef4035;
   text-transform: uppercase;
   padding-bottom: 1rem;
   padding-top: 2rem;
 }
 
-.technologies-content{
+.technologies-content {
   text-align: center;
   max-width: 53.125rem;
   border: 0px solid white;
   margin: 0 auto 2rem auto;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(19, 28, 39, 0.9);
   padding-top: 1rem;
-  
+  border-radius: 1rem;
+
 }
-.myCarousel{
+
+.myCarousel {
   color: white;
   background: transparent;
-  margin-top: -6%;
   width: 54%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 8%;
-  height: 12.875rem;
-  border: 0px solid white;
+  border: 0px solid wheat;
+  margin: auto;
+  padding: 0 0 8% 0;
 }
+
 @media(max-width:768px) {
   .myCarousel {
     min-height: 10rem;
     padding: 0;
   }
-  .myCarousel h3{
+
+  .myCarousel h3 {
     font-size: 1rem;
   }
 }
-.myCarousel h3{
+
+.myCarousel h3 {
   margin-top: 2rem;
 }
 
-.carousel .slide img{
+.carousel .slide img {
   width: 15rem !important;
   height: 15rem !important;
   border-radius: 50%;
 }
 
-.carousel .slide{
+.carousel .slide {
   background: transparent !important;
   height: 100% !important;
 }
-.carousel-root{
+
+.carousel-root {
   margin: auto !important;
   margin-top: 3% !important;
 }
+
 /* =======================================Blogs=================================== */
-.blogs{
-  background: linear-gradient(rgba(0, 0, 0, 1), transparent),
-  url(./Images/pexels-pixabay-261662.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.blogs h1{
+/* .blogs {
+  
+} */
+
+.blogs h1 {
   color: red;
 }
-.box{
+
+.box {
   border: 1px solid black;
   background: rgba(19, 28, 39, 0.5);
 }
-.box img{
+
+.box img {
   width: 100%;
   height: 180px;
 }
-.box button{
+
+.box button {
   outline: none;
   border: none;
   color: red;
   background: rgba(19, 28, 39, 1);
 }
-.box button:hover{
+
+.box button:hover {
   color: white;
   background: rgba(0, 0, 0, 0.9);
   transition: 0.5s ease-in-out;
@@ -745,30 +787,36 @@ nav ul li {
 
 /* =======================================Contact=================================== */
 
-.contacts{
+.contacts {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
-  url(./Images/contact-mountain.png);
+  background: linear-gradient(rgba(39, 39, 39, 0.9), transparent),
+    url(./Images/contact-mountain.png);
   background-size: cover;
+  background-color: rgb(194, 194, 194);
   background-repeat: no-repeat;
 }
-.contact-container{
+
+.contact-container {
   background: rgba(19, 28, 39, 0.8);
   color: white;
   padding: 1.5rem !important;
   border-radius: 2rem;
   margin-top: 1rem;
 }
-.contacts h1{
+
+.contacts h1 {
   color: rgb(255, 64, 64);
   padding: 1.3rem 0;
   font-weight: 900 !important;
 }
-.contacts p{
+
+.contacts p {
   color: #f9ab00;
   font-size: 1.2rem;
 }
-.contacts input,.contacts textarea{
+
+.contacts input,
+.contacts textarea {
   width: 100%;
   box-sizing: border-box;
   background: none;
@@ -783,29 +831,32 @@ nav ul li {
   padding-left: 0 !important;
 }
 
-.contacts .container{
+.contacts .container {
   padding: 4rem 0;
 }
 
-.contacts input:focus,.contacts textarea:focus{
+.contacts input:focus,
+.contacts textarea:focus {
   background: transparent;
   color: #f9ab00;
   border-bottom: 0.125rem solid #7a7a7a;
 }
 
-.contacts textarea{
+.contacts textarea {
   height: 17rem !important;
 }
 
-.contact-btn{
+.contact-btn {
   margin: 2rem 0 0 0;
   width: 100%;
   border-color: #f9ab00;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
   background-color: orange;
 }
-.line{
+
+.line {
   position: relative;
   width: 0;
   display: inline-block;
@@ -813,14 +864,17 @@ nav ul li {
   background: #f9ab00;
   top: -2.2rem;
 }
-input:focus+.line,textarea:focus+.line{
+
+input:focus+.line,
+textarea:focus+.line {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
 
-input .form-control{
+input .form-control {
   margin: -0.3rem 0;
 }
+
 textarea .form-control {
   margin: -0.3rem 0;
 }
@@ -836,32 +890,38 @@ textarea .form-control {
   margin-bottom: 1.5rem;
 }
 
-@media(max-width:768px){
-  
-  .contacts{
+@media(max-width:768px) {
+
+  .contacts {
     padding: 1rem;
     height: auto;
     overflow-x: hidden;
   }
-  .contacts .container{
+
+  .contacts .container {
     padding: 0 1rem;
     height: auto;
   }
+
   .contacts input,
-  .contacts textarea{
+  .contacts textarea {
     margin-bottom: 0.2rem;
   }
-  .contacts p{
+
+  .contacts p {
     padding: 0 0.4rem;
   }
+
   .contacts textarea {
     height: 6rem !important;
   }
+
   .contact-btn {
     margin: 1rem 0 0 0;
     width: 100%;
     border-color: #f9ab00;
   }
+
   .contacts h1 {
     color: rgb(255, 64, 64);
     padding: 1rem 0;
@@ -872,171 +932,107 @@ textarea .form-control {
     color: #f9ab00;
     font-size: 1rem;
   }
+
   .line {
     top: -1.4rem;
   }
-} 
+}
 
 /* =======================================Footer=================================== */
 
-.footer{
+.footer {
   background: var(--primary-black);
   color: var(--primary-black);
   padding: 3rem;
   border: 0px solid white;
 }
 
-.address{
-  border: 0px solid white !important; 
+.address {
+  border: 0px solid white !important;
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 20px;
 }
-.footer a{
+
+.footer a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
 }
-.footer a:hover{
+
+.footer a:hover {
   text-decoration: none;
   color: var(--primary-orange);
   cursor: pointer;
 }
-.footer p{
+
+.footer p {
   margin-bottom: 0;
   color: var(--primary-dark-grey);
 }
-.gap{
+
+.gap {
   border: 0px solid white;
   margin-bottom: 20px;
 }
-.link-to{
+
+.link-to {
   display: flex;
   flex-direction: column;
 }
-.share{
+
+.share {
   cursor: pointer;
 }
+
 /* ===================================================================== */
 
-.downloader {
-  width: 500px;
-  min-height: 128px;
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  max-height: 700px;
-  overflow-y: auto;
-}
 
-.downloader .card-header {
-  color: #fff;
-  background-color: rgb(93 11 11 / 92%);
-}
-
-.downloader .card .list-group {
-  max-height: 300px;
-  overflow: hidden;
-  overflow-y: auto;
-}
-
-@media(max-height:736px) {
-  .downloader {
-    width: 323px;
-    min-height: 128px;
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    max-height: 700px;
-    overflow-y: auto;
-  }
-}
-@media(height:812px) {
-  .downloader {
-    width: 340px;
-    min-height: 128px;
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    max-height: 700px;
-    overflow-y: auto;
-  }
-}
-@media(height:568px) {
-  .downloader {
-    width: 280px;
-    min-height: 128px;
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    max-height: 700px;
-    overflow-y: auto;
-  }
-}
-@media(height:736px) {
-  .downloader {
-    width: 380px;
-    min-height: 128px;
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    max-height: 700px;
-    overflow-y: auto;
-  }
-}
-@media(height:731px) {
-  .downloader {
-    width: 380px;
-    min-height: 128px;
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    max-height: 700px;
-    overflow-y: auto;
-  }
-} 
 
 /* =================================================================================================================== */
 .tech-stacks {
   height: auto;
   padding: 5rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
-  url(./Images/pexels-danny-meneses-943096.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.tech-cont{
+
+.tech-cont {
   background: rgba(218, 218, 218, 0.6);
   padding: 2rem;
   border-radius: 1rem;
 }
-.tech-stacks h1{
+
+.tech-stacks h1 {
   margin-bottom: 3rem;
   color: #f96400;
+  text-transform: uppercase;
 }
+
 .avatar {
   border: 0px solid black;
   width: 5rem;
   height: 5rem;
-  
+
 }
+
 @media(max-width:768px) {
   .tech-stacks {
     height: auto;
     padding: 3rem;
   }
- .avatar {
-   border: 0px solid black;
-   width: 4rem;
-   height: 4rem;
- }
- .tech-cont {
-   background: rgba(255, 255, 255);
-   padding: 0rem;
- }
+
+  .avatar {
+    border: 0px solid black;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .tech-cont {
+    background: rgba(255, 255, 255);
+    padding: 0rem;
+  }
 }
+
 @media(height:653px) {
   .avatar {
     width: 5rem;

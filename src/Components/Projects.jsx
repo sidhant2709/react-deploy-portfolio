@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import p1 from "../Images/Projects Images/p1.jpg";
@@ -9,7 +10,6 @@ import cssIcon from "../Images/Icon Images/css.svg";
 import jsIcon from "../Images/Icon Images/js.svg";
 import reactIcon from "../Images/Icon Images/react.svg";
 import htmlIcon from "../Images/Icon Images/html.svg";
-import { FaSearchPlus } from "react-icons/fa";
 
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -140,41 +140,37 @@ const Projects = () => {
       <h1 className="text-uppercase text-center heading">Projects</h1>
       <div className="container-fluid">
         <div className="image-box-wrapper row justify-content-center">
+
+
+
           <div className="portfolio-image-box" onClick={openProjectAlzajeera}>
+            <h2>Al Jazeera Clone</h2>
             <img src={aljazeera} className="portfolio-image" alt="p1" />
-            <div className="overflow">
-              <h3>Aljazeera Clone</h3>
-            </div>
-            <FaSearchPlus className="portfolio-icon" />
           </div>
 
           {/* ====================================================================================================== */}
 
           <div className="portfolio-image-box" onClick={openProjectNykaa}>
+            <h2>Nykaa Clone</h2>
             <img src={nykaa} className="portfolio-image" alt="nykaa" />
-            <div className="overflow">
-              <h3>Nykaa Clone</h3>
-            </div>
-            <FaSearchPlus className="portfolio-icon" />
           </div>
 
           {/* ====================================================================================================== */}
 
           <div className="portfolio-image-box" onClick={openProjectLoom}>
+          <h2>Loom Clone</h2>
             <img src={loom} className="portfolio-image" alt="loom" />
-            <div className="overflow">
-              <h3>Loom Clone</h3>
-            </div>
-            <FaSearchPlus className="portfolio-icon" />
           </div>
 
           {/* ====================================================================================================== */}
 
-          <div className="portfolio-image-box" onClick={openP4}>
+          {/* <div className="portfolio-image-box" onClick={openP4}>
             <img src={p4} className="portfolio-image" alt="p4" />
             <div className="overflow"></div>
-            <FaSearchPlus className="portfolio-icon" />
-          </div>
+          </div> */}
+
+
+
         </div>
       </div>
       <PopupboxContainer />
