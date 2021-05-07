@@ -73,7 +73,6 @@ const Projects = () => {
           <img src={cssIcon} alt="cssIcon" className="tech-icon" />
           <img src={jsIcon} alt="cssIcon" className="tech-icon" />
           <img src={htmlIcon} alt="cssIcon" className="tech-icon" />
-          <img src={reactIcon} alt="cssIcon" className="tech-icon" />
         </div>
       </div>
     );
@@ -100,7 +99,6 @@ const Projects = () => {
           <img src={cssIcon} alt="cssIcon" className="tech-icon" />
           <img src={jsIcon} alt="cssIcon" className="tech-icon" />
           <img src={htmlIcon} alt="cssIcon" className="tech-icon" />
-          <img src={reactIcon} alt="cssIcon" className="tech-icon" />
         </div>
       </div>
     );
