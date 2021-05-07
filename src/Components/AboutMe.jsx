@@ -14,7 +14,7 @@ const AboutMe = () => {
                         <h1 className="about-header">About Me</h1>
                         <p className="about-paragraph">
                             I am Sidhant Kumar Sahoo. I am from Bhubaneswar, Odisha. I completed my 10+2 from Mother’s Public School Bhubaneswar and did my graduation in Electrical Engineering from C.V. Raman College of Engineering Bhubaneswar.
-                            I used to work in Cognizant Technology Solutions, Kolkata as developer but due to some personal reason I had to quit. After that I worked as a Marketing Head for CIMS Bhubaneswar in March of 2020 I lost my job due to COVID. In Nov-2020 I started working as a Transportation Specialist in Amazon-ROC Hyderabad and simultaneously learning to be a Full Stack Developer in Masai School.
+                            I used to work in Cognizant Technology Solutions, Kolkata as a software developer. After that I worked as a Marketing Head for CIMS Bhubaneswar in March of 2020 I lost my job due to pandemic. In Nov-2020 I started working as a Transportation Specialist in Amazon-ROC Hyderabad and simultaneously learning to be a Full Stack Developer in Masai School.
                         </p>
                     </div>
                 </div>
