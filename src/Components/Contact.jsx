@@ -40,7 +40,7 @@ const Contact = () => {
     return (
         <div id="contacts" className="contacts">
             <div className="text-center">
-                <h1>Contact Me</h1>
+                <h1>CONTACT ME</h1>
                 <p>Please fill out the form</p>
                 <span className="success-message">{successMessage}</span>
             </div>

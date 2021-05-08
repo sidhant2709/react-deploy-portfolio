@@ -458,13 +458,12 @@ nav ul li {
   align-items: center;
   justify-content: space-around;
   cursor: pointer;
-  opacity: 90%;
   background: rgba(45, 41, 41, 0.30);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
   border-radius: 10px;
-  border: 0px solid rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.18);
 }
 
 .portfolio-image-box h2 {
@@ -477,7 +476,6 @@ nav ul li {
   height: 15rem;
   border: 0px solid #f9ab00;
   padding: 0 0.5rem;
-  opacity: 80%;
 }
 
 @media(min-width:1440px) {
@@ -490,7 +488,6 @@ nav ul li {
 }
 
 
-/* =======================================Overflow Box=================================== */
 
 
 
@@ -799,9 +796,9 @@ nav ul li {
 .contact-container {
   background: rgba(19, 28, 39, 0.8);
   color: white;
-  padding: 1.5rem !important;
+  padding: 3rem !important;
   border-radius: 2rem;
-  margin-top: 1rem;
+  margin-top: 6rem;
 }
 
 .contacts h1 {
@@ -898,6 +895,14 @@ textarea .form-control {
     overflow-x: hidden;
   }
 
+  .contact-container {
+    background: rgba(19, 28, 39, 0.8);
+    color: white;
+    padding: 3rem !important;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+
   .contacts .container {
     padding: 0 1rem;
     height: auto;
@@ -941,8 +946,8 @@ textarea .form-control {
 /* =======================================Footer=================================== */
 
 .footer {
-  background: var(--primary-black);
-  color: var(--primary-black);
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   padding: 3rem;
   border: 0px solid white;
 }
