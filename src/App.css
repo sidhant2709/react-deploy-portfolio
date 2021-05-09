@@ -49,7 +49,7 @@ nav {
 .logo {
   font-family: 'Pattaya',
     sans-serif !important;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   padding-top: 1rem;
   background-clip: text;
   -webkit-background-clip: text;
@@ -798,7 +798,7 @@ nav ul li {
   color: white;
   padding: 3rem !important;
   border-radius: 2rem;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .contacts h1 {
