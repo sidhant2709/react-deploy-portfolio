@@ -38,7 +38,11 @@ const Projects = () => {
           >
             GitHub Link
           </button>
-          <button className="demo">DEMO</button>
+          <button onClick={() =>
+              window.open(
+                "https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/"
+              )
+            } className="demo">EXPLORE</button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
@@ -66,7 +70,7 @@ const Projects = () => {
           >
             GitHub Link
           </button>
-          <button className="demo">DEMO</button>
+          <button className="demo">EXPLORE</button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
@@ -92,7 +96,7 @@ const Projects = () => {
           >
             GitHub Link
           </button>
-          <button className="demo">DEMO</button>
+          <button className="demo">EXPLORE</button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
@@ -122,7 +126,7 @@ const Projects = () => {
           >
             GitHub Link
           </button>
-          <button className="demo">DEMO</button>
+          <button className="demo">EXPLORE</button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
