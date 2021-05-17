@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/react-deploy-portfolio/static/css/main.6c600e8d.chunk.css",
-    "main.js": "/react-deploy-portfolio/static/js/main.4095402d.chunk.js",
-    "main.js.map": "/react-deploy-portfolio/static/js/main.4095402d.chunk.js.map",
+    "main.css": "/react-deploy-portfolio/static/css/main.7dc07995.chunk.css",
+    "main.js": "/react-deploy-portfolio/static/js/main.209eb6b5.chunk.js",
+    "main.js.map": "/react-deploy-portfolio/static/js/main.209eb6b5.chunk.js.map",
     "runtime-main.js": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js",
     "runtime-main.js.map": "/react-deploy-portfolio/static/js/runtime-main.a9cbf7da.js.map",
     "static/css/2.adb406d7.chunk.css": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css",
-    "static/js/2.639c6340.chunk.js": "/react-deploy-portfolio/static/js/2.639c6340.chunk.js",
-    "static/js/2.639c6340.chunk.js.map": "/react-deploy-portfolio/static/js/2.639c6340.chunk.js.map",
+    "static/js/2.2eba90f5.chunk.js": "/react-deploy-portfolio/static/js/2.2eba90f5.chunk.js",
+    "static/js/2.2eba90f5.chunk.js.map": "/react-deploy-portfolio/static/js/2.2eba90f5.chunk.js.map",
     "index.html": "/react-deploy-portfolio/index.html",
     "static/css/2.adb406d7.chunk.css.map": "/react-deploy-portfolio/static/css/2.adb406d7.chunk.css.map",
-    "static/css/main.6c600e8d.chunk.css.map": "/react-deploy-portfolio/static/css/main.6c600e8d.chunk.css.map",
-    "static/js/2.639c6340.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.639c6340.chunk.js.LICENSE.txt",
+    "static/css/main.7dc07995.chunk.css.map": "/react-deploy-portfolio/static/css/main.7dc07995.chunk.css.map",
+    "static/js/2.2eba90f5.chunk.js.LICENSE.txt": "/react-deploy-portfolio/static/js/2.2eba90f5.chunk.js.LICENSE.txt",
     "static/media/Resume.c0306552.pdf": "/react-deploy-portfolio/static/media/Resume.c0306552.pdf",
     "static/media/Sid.4c1f48bd.jpg": "/react-deploy-portfolio/static/media/Sid.4c1f48bd.jpg",
     "static/media/aljazeera.4e55014f.png": "/react-deploy-portfolio/static/media/aljazeera.4e55014f.png",
-    "static/media/aljazeera_blog.f45128eb.png": "/react-deploy-portfolio/static/media/aljazeera_blog.f45128eb.png",
     "static/media/bootstrap-4.997c463d.svg": "/react-deploy-portfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/App.css": "/react-deploy-portfolio/static/media/pexels-fauxels-3183150.4a225a72.jpg",
     "static/media/css.b0696b45.svg": "/react-deploy-portfolio/static/media/css.b0696b45.svg",
@@ -24,12 +23,10 @@
     "static/media/html.10080bf9.svg": "/react-deploy-portfolio/static/media/html.10080bf9.svg",
     "static/media/js.1b2759f5.svg": "/react-deploy-portfolio/static/media/js.1b2759f5.svg",
     "static/media/loom.7e82761e.png": "/react-deploy-portfolio/static/media/loom.7e82761e.png",
-    "static/media/loom_blog.417da1fa.png": "/react-deploy-portfolio/static/media/loom_blog.417da1fa.png",
     "static/media/material-ui-1.fd510ed8.svg": "/react-deploy-portfolio/static/media/material-ui-1.fd510ed8.svg",
     "static/media/mongodb.d89a6eeb.svg": "/react-deploy-portfolio/static/media/mongodb.d89a6eeb.svg",
     "static/media/nodejs.52cbf9a8.svg": "/react-deploy-portfolio/static/media/nodejs.52cbf9a8.svg",
     "static/media/nykaa.a760594c.png": "/react-deploy-portfolio/static/media/nykaa.a760594c.png",
-    "static/media/nykaa_blog.c0f5d120.png": "/react-deploy-portfolio/static/media/nykaa_blog.c0f5d120.png",
     "static/media/p1.780816b6.jpg": "/react-deploy-portfolio/static/media/p1.780816b6.jpg",
     "static/media/p4.c8fb2e2c.jpg": "/react-deploy-portfolio/static/media/p4.c8fb2e2c.jpg",
     "static/media/react-bootstrap.534ba574.svg": "/react-deploy-portfolio/static/media/react-bootstrap.534ba574.svg",
@@ -42,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.a9cbf7da.js",
     "static/css/2.adb406d7.chunk.css",
-    "static/js/2.639c6340.chunk.js",
-    "static/css/main.6c600e8d.chunk.css",
-    "static/js/main.4095402d.chunk.js"
+    "static/js/2.2eba90f5.chunk.js",
+    "static/css/main.7dc07995.chunk.css",
+    "static/js/main.209eb6b5.chunk.js"
   ]
 }
