@@ -19,7 +19,7 @@
 }
 
 button {
-  background: none;
+ background: none;
 }
 
 body {
@@ -314,7 +314,7 @@ nav ul li {
 .experiences {
   height: auto;
   border: 0px solid white;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 @media(max-width:768px) {
@@ -442,7 +442,7 @@ nav ul li {
 /* ============================projects============================== */
 
 .portfolio-wrapper {
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
   height: auto;
 }
 
@@ -541,9 +541,12 @@ nav ul li {
 }
 
 .github,
-.demo {
-  color: #f9ab00;
-  font-weight: 700;
+.medium,
+.explore {
+  text-decoration: none;
+  color: white;
+  outline: none;
+  border: none;
 }
 
 .technology-used {

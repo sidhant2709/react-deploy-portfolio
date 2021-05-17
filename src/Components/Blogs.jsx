@@ -23,7 +23,7 @@ const Blogs = () => {
                                 <button className="mt-2 mb-1 py-2 px-3" onClick={() => window.open("https://sidhant1593.medium.com/project-2-nykaa-clone-c982680bd38c")}>Blog Link</button>
                             </div>
                         </div>
-                       <div className="col-md-4 col-sm-6">
+                        <div className="col-md-4 col-sm-6">
                             <div className="box mt-2 mb-2 d-flex flex-column justify-content-around align-items-center p-2" >
                                 <img src={loomBlog} alt="loom" className="mb-1"/>
                                 <button className="mt-2 mb-1 py-2 px-3" onClick={() => window.open("https://sidhant1593.medium.com/project-1-loom-clone-abf47a30583d")}>Blog Link</button>

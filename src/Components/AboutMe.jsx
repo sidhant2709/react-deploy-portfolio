@@ -27,12 +27,9 @@ const AboutMe = () => {
             <p className="about-paragraph">
               I am <span className="my-name">Sidhant Kumar Sahoo</span>. I am
               from Bhubaneswar, Odisha.
-              <br />I completed my 10+2 from Mother’s Public School Bhubaneswar
-              and did my graduation in Electrical Engineering from C.V. Raman
-              College of Engineering Bhubaneswar.
-              <br />
-              I used to work in Cognizant Technology Solutions, Kolkata as a
-              software developer. After that I worked as a Marketing Executive
+              an electrical engineering graduate from C.V. Raman college of engineering.
+              <br /> I graduated in the year 2016 and got hired by Cognizant Technology Solutions through the campus placement where I worked for 8 months as a software developer. 
+              After that I worked as a Marketing Executive
               for CIMS Bhubaneswar in March of 2020 I lost my job due to
               pandemic.
               <br />

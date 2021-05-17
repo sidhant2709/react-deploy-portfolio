@@ -53,17 +53,6 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 smooth={true}
-                to="experience"
-                offset={-90}
-                className="nav-link"
-                href="#"
-              >
-                experience
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                smooth={true}
                 to="projects"
                 offset={-90}
                 className="nav-link"
@@ -72,16 +61,15 @@ const Navbar = () => {
                 projects
               </Link>
             </li>
-
             <li className="nav-item">
               <Link
                 smooth={true}
-                to="blogs"
+                to="experience"
                 offset={-90}
                 className="nav-link"
                 href="#"
               >
-                blogs
+                experience
               </Link>
             </li>
             <li className="nav-item">

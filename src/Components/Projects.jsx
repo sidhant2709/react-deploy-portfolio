@@ -10,6 +10,8 @@ import cssIcon from "../Images/Icon Images/css.svg";
 import jsIcon from "../Images/Icon Images/js.svg";
 import reactIcon from "../Images/Icon Images/react.svg";
 import htmlIcon from "../Images/Icon Images/html.svg";
+import { FaGithub,FaMedium,FaLink,FaExternalLinkAlt} from "react-icons/fa";
+
 
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -36,13 +38,18 @@ const Projects = () => {
             }
             className="github"
           >
-            GitHub Link
-          </button>
+          <FaGithub size="30"/></button>
           <button onClick={() =>
               window.open(
                 "https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/"
               )
-            } className="demo">EXPLORE</button>
+            } className="explore"><FaExternalLinkAlt size="30"/></button>
+          <button
+            onClick={() =>
+              window.open("https://sidhant1593.medium.com/project-3-aljazeera-clone-ab2dc92e425f")
+            }
+            className="medium"
+          ><FaMedium size="30"/></button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
@@ -68,9 +75,15 @@ const Projects = () => {
             }
             className="github"
           >
-            GitHub Link
+            <FaGithub size="30"/>
           </button>
-          <button className="demo">EXPLORE</button>
+          <button className="explore"><FaExternalLinkAlt size="30"/></button>
+          <button
+            onClick={() =>
+              window.open("https://sidhant1593.medium.com/project-2-nykaa-clone-c982680bd38c")
+            }
+            className="medium"
+          ><FaMedium size="30"/></button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
@@ -94,9 +107,15 @@ const Projects = () => {
             onClick={() => window.open("https://github.com/aman73650/Bromine")}
             className="github"
           >
-            GitHub Link
+            <FaGithub size="30"/>
           </button>
-          <button className="demo">EXPLORE</button>
+          <button className="explore"><FaExternalLinkAlt size="30"/></button>
+          <button
+            onClick={() =>
+              window.open("https://sidhant1593.medium.com/project-1-loom-clone-abf47a30583d")
+            }
+            className="medium"
+          ><FaMedium size="30"/></button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
@@ -127,6 +146,12 @@ const Projects = () => {
             GitHub Link
           </button>
           <button className="demo">EXPLORE</button>
+          <button
+            onClick={() =>
+              window.open("https://sidhant1593.medium.com/project-1-loom-clone-abf47a30583d")
+            }
+            className="github"
+          >Blog Link</button>
         </div>
         <h3>Technologies used</h3>
         <div className="technology-used">
